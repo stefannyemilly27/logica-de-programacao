@@ -36,3 +36,7 @@ def devolver_livro(ListaLivros):
     return "Histórico de livro não encontrado"
 
 def exibir_livro(ListaLivros):
+    for livros in ListaLivros:
+        print("Título:", livros["titulo"])
+        print("Status:", livros["status"])
+        print()
